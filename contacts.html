@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hogwarts School of Witchcraft and Wizardry</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+</head>
+
+<body>
+<section class="subheader">
+  <nav>
+    <a href="home.html"><img src="images\hogwarts-7917.png"></a>
+    <h1><b>HOGWARTS SCHOOL</b><br><t>of Witchcraft and Wizardry</t></h1>
+    <div class="nav-links">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="course.html">Courses</a></li>
+        <li><div class="dropdown"><a href="#">Portal</a>
+        <div class="dropdown-content">
+            <div class="dropdown-item"><a href="./student/login.html">Student Login</a></div>
+            <div class="dropdown-item"><a href="./teacher/logtexh.html">Faculty Login</a></div>
+        </div>
+        </div></li>
+        <li><a href="contacts.html">Contact</a></li>
+    <!--    <li><a href="/School Web/my work/Sports Club/SC.html">Accolades</a></li>-->
+      </ul>
+      
+    </div>
+  </nav>
+  <h2>Contacts</h2>
+
+  
+</section>  
+
+<section class="contact">
+  <h1>Contact us</h1>
+  <div class="row">
+    <div class="col">
+    <b> <p>Email us at info@hogwarts.com</p>
+        <p>For Academic related queries admission@hogwarts.com</p>
+      <p>Address: <br>PO Box No. 666, Alnwick Castle, Alnwick, Northumberland, NE66 1NQ</p></b>
+      <p>Phone: <br>  Landline: +248-934-6913 / 934-6924 / 934-6948 <br>  Fax: 248-76892756 <br>  Toll free No.: 18004652000</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9058.80038102889!2d-1.7059204!3d55.4155828!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487e00e0ed23bc0d%3A0x8783a98b290f641!2sAlnwick%20Castle!5e0!3m2!1sen!2sin!4v1700152791908!5m2!1sen!2sin" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+   <div class="col2">
+<br><br>
+        <form onsubmit="event.preventDefault(); validiteForm()">
+
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Your Name">
+            <small class="error"></small>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" placeholder="Your email">
+            <small class="error"></small>
+
+            <label for="message">Message</label>
+            <input type="text" id="name" placeholder="Your Message">
+            <small class="error"></small>
+            <div class="center">
+                <input type="submit" value="Send Message">
+                <p id="success"></p>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+
+  </div>
+</section>
+
+<section class="foot">
+  <p><b1>Contact Us:</b1> <i class="fa fa-phone"></i> <b1>+248-934-6913</b1></p>
+  <div class="icon">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-linkedin"></i>
+  </div>
+  <p>Follow Us</p>
+</section>
+</body>
+
+</html>
