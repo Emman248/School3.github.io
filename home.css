@@ -10,7 +10,7 @@ body{
 .header{
   min-height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(0,10,61,0.7),rgba(0,10,61,0.7)), url(images/jules-marvin-eguilos-YrcfSDVli3Y-unsplash.jpg);
+  background-image: linear-gradient(rgba(0,10,61,0.7),rgba(0,10,61,0.7)), url(jules-marvin-eguilos-YrcfSDVli3Y-unsplash.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -133,7 +133,7 @@ p{
   box-sizing: border-box;
   transition: 0.5s;
   color: #fff;
-  background-image: linear-gradient( to right,#000a3d 20%, transparent 100%), url(images/rhii-photography-Xy6FpnFyVjo-unsplash.jpg);
+  background-image: linear-gradient( to right,#000a3d 20%, transparent 100%), url(rhii-photography-Xy6FpnFyVjo-unsplash.jpg);
   background-size: cover;
 }
 .us:hover{
@@ -216,7 +216,7 @@ p{
 .act{
   margin: 100px auto;
   width: 80%;
-  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(images/tuyen-vo-NB7QH7a4QrQ-unsplash.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(tuyen-vo-NB7QH7a4QrQ-unsplash.jpg);
   background-position: center;
   background-size: cover;
   border-radius:10px;
@@ -259,7 +259,7 @@ b1{
 .subheader{
   height: 60vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/tuyen-vo-tS-jh0M6JoA-unsplash.jpg);
+  background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(tuyen-vo-tS-jh0M6JoA-unsplash.jpg);
   background-position: center;
   background-size: cover;
   text-align: center;
@@ -288,7 +288,7 @@ b1{
   padding: 15px 0 25px;
 }
 .eheader{
-  background-image: url("images/rhii-photography-Xy6FpnFyVjo-unsplash.jpg")
+  background-image: url("rhii-photography-Xy6FpnFyVjo-unsplash.jpg")
 }
 
 .aboutus2-col{
@@ -357,7 +357,7 @@ b1{
   box-sizing: border-box;
   transition: 0.5s;
   color: #fff;
-  background-image: linear-gradient(rgba(0,10,61,0.5),rgba(0,10,61,0.5)),url(images/rhii-photography-Xy6FpnFyVjo-unsplash.jpg);
+  background-image: linear-gradient(rgba(0,10,61,0.5),rgba(0,10,61,0.5)),url(rhii-photography-Xy6FpnFyVjo-unsplash.jpg);
   filter: blur(10%);
   background-size: cover;
 }
@@ -514,7 +514,7 @@ input[type="submit"]{
 }
 .eheader{
   color: white;
-  background-image: linear-gradient(rgba(0,10,61,0.5),rgba(0,10,61,0.5)),url(images/rhii-photography-Xy6FpnFyVjo-unsplash.jpg);
+  background-image: linear-gradient(rgba(0,10,61,0.5),rgba(0,10,61,0.5)),url(rhii-photography-Xy6FpnFyVjo-unsplash.jpg);
   background-position: center;
   background-size: cover;
   height: 60vh;
